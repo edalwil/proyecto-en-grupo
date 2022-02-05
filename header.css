@@ -1,0 +1,138 @@
+/***********Nav**********/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contentLogoAndBtn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .contentLogo {
+    width: 50%;
+    /* margin-top: 3%;
+    margin-left: 3%; */
+    margin-top: 8%;
+    margin-left: 6%;
+  }
+  
+  .logo {
+    /* width: 40%; */
+    width: 65%;
+  }
+  
+  .contentButton {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    /* margin-top: 3%;
+    margin-right: 10%; */
+    margin-top: 7%;
+    margin-right: 10%;
+  }
+  
+  .btnHeader {
+    /* width: 25%; */
+    /* height: 48px; */
+    width: 60%;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #fc6bc4;
+    border-radius: 20px;
+    color: #fc6bc4;
+    font-size: calc(0.5em + 1vw);
+    box-shadow: 3px 3px rgba(240, 239, 239, 0.801);
+    font-family: "poppins";
+  }
+  
+  /***********Fin Nav**********/
+  /***********Main**********/
+  
+  .infoAndButton {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "poppins";
+  }
+  
+  .title1 {
+    width: 80%;
+    font-family: "poppins";
+    text-align: center;
+  }
+  
+  .infoP {
+    width: 75%;
+    margin-top: 5%;
+    font-size: 0.8em;
+    font-family: "poppins";
+    text-align: center;
+  }
+  
+  .btnFree {
+    width: 35%;
+    height: 48px;
+    /* margin-top: 5%; */
+    margin-top: 8%;
+    font-family: "poppins";
+    background-color: #fc6bc4;
+    border: none;
+    border-radius: 22px;
+    color: #ffff;
+    font-size: calc(0.4em + 1vw);
+    box-shadow: 3px 3px rgba(240, 239, 239, 0.801);
+  }
+  
+  .imgScreenMockups {
+    width: 80%;
+    /* margin-top: 8%; */
+    margin-top: 15%;
+  }
+  
+  /***********Fin Main**********/
+  /***********Media queries**********/
+  
+  @media only screen and (min-width: 768px) and (max-width: 1920px){
+  
+  .logo {
+    width: 200px;
+  }
+  
+  .btnHeader {
+    width: 200px;
+    height: 40px;
+  }
+  
+  .infoAndButton {
+    margin-top: 8%;
+  }
+  
+  .title1 {
+    font-size: 2.5em;
+  }
+  
+  .infoP {
+    width: 45%;
+    margin-top: 1%;
+    font-size: 1em;
+  }
+  
+  .btnFree {
+    width: 300px;
+    height: 60px;
+    border-radius: 25px;
+    margin-top: 5%;
+  }
+  
+  .imgScreenMockups {
+    margin-top: 8%;
+  }
+    }
+  
+  /************ Fin Media queries***********/
