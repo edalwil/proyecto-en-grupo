@@ -1,0 +1,81 @@
+
+body{margin: 0;}  
+.fondomobile{ background: #00252e;
+padding-top: 30px;
+margin-top: -5px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+color: white;
+font-family: 'Rubik', sans-serif;
+font-weight: 400;
+
+} 
+.fondomobile h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+.fondomobile p{
+    font-size: .9em;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+.input .button{
+    background: #FE52C0;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.input .right{
+    width: 100%;
+    text-align: right;
+
+}
+
+.svglogo path{
+    fill: white;
+}
+.svglogo svg{
+    transform: scale(.7)translateX(-50px);
+}
+
+.contentimag{
+    padding-top: 90px;
+
+}
+.lista1footer{
+    list-style: none;
+    padding-left: 0%;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.lista1footer img{
+    margin-right: 20px;
+}
+
+.logoredes a{
+    margin-right: 10px;
+}
+
+.logoredes i{
+    font-size: 1.3em;
+}
+
+.imagenfooter img{
+    width: 100%;}
+.attribution {
+     font-size: 11px; text-align: center; }
+.attribution a {
+     color: hsl(228, 45%, 44%); }
+
+.input input{
+    width: 99%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+
+}
