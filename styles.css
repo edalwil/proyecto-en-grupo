@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 .contenedor>div {
     margin-top: 100px;
 }
@@ -16,15 +17,15 @@
 
 .contenedor>div img~h1 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 5rem;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 .contenedor>div p{
     color: hsl(228, 45%, 44%);
     margin-top: 10px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .contenedor {
@@ -32,32 +33,62 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 200px;
 }
 
-.contenedor2 > div > img {
-    width: 100vw;
+.contenedor2  img {
+    width: 75%;
+    
 }
+
+.contenedor2 {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 #gow-together {
-    margin: 50px;
-    text-align: center;
+    margin-top:20px;
+    text-align:center;
 }
 
-.contenedor2 > div + div > div p {
+.contenedor2 > div > p {
     padding-top: 30px;
     font-family:'Montserrat', sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
-.contenedor2 > div + div > div h1 {
+.contenedor2 > div > h1 {
     font-family:'Montserrat', sans-serif;
-    font-size: 3rem;   
+    font-size: 1rem;   
 }
+
+
 
 @media only screen and (min-width: 600px) {
     .contenedor {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
+
+    .contenedor2 {
+        flex-direction: row-reverse;
+
+    }
+
+    .contenedor2  img {
+        width: 50%;
+    }
+
+    .contenedor2 p {
+        text-align: justify;
+        padding: 0 80px;
+        
+    }
+
+
 }
