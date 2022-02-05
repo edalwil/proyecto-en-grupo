@@ -98,42 +98,6 @@
   /***********Fin Main**********/
   /***********Media queries**********/
   
-  @media only screen and (min-width: 768px) and (max-width: 1200px){
-  
-  .logo {
-    width: 200px;
-  }
-  
-  .btnHeader {
-    width: 200px;
-    height: 40px;
-  }
-  
-  .infoAndButton {
-    margin-top: 8%;
-  }
-  
-  .title1 {
-    font-size: 2.5em;
-  }
-  
-  .infoP {
-    width: 45%;
-    margin-top: 1%;
-    font-size: 1em;
-  }
-  
-  .btnFree {
-    width: 300px;
-    height: 60px;
-    border-radius: 25px;
-    margin-top: 5%;
-  }
-  
-  .imgScreenMockups {
-    margin-top: 8%;
-  }
-    }
 
 .contenedor>div {
     margin-top: 100px;
@@ -198,6 +162,40 @@
 
 
 @media only screen and (min-width: 600px) {
+    .logo {
+        width: 200px;
+      }
+      
+      .btnHeader {
+        width: 200px;
+        height: 40px;
+      }
+      
+      .infoAndButton {
+        margin-top: 8%;
+      }
+      
+      .title1 {
+        font-size: 2.5em;
+      }
+      
+      .infoP {
+        width: 45%;
+        margin-top: 1%;
+        font-size: 1em;
+      }
+      
+      .btnFree {
+        width: 300px;
+        height: 60px;
+        border-radius: 25px;
+        margin-top: 5%;
+      }
+      
+      .imgScreenMockups {
+        margin-top: 8%;
+      }
+        }
     .contenedor {
         flex-direction: row;
         justify-content: space-around;
@@ -218,5 +216,22 @@
         
     }
 
+    @media only screen and (min-width: 1100px) {
+        .infoP {
+            font-size: 1.5rem;
+        }
+        .contenedor> div img~h1 {
+            font-size: 5rem;
+        }
+        .contenedor> div p {
+            font-size: 1.5rem;
+        }
+        #gow-together h1 {
+            font-size: 2rem;
+        }
+        #gow-together p {
+            font-size: 1.2rem;
+        }
 
-}
+    }
+    
