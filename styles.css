@@ -212,6 +212,16 @@ body {
   color: white
 }
 
+
+/* footer */
+footer {
+ background-image: url("/reto-landing-equipo-enero/images/bg-footer-top-desktop.svg");
+ background-repeat: no-repeat;
+ background-size:initial;
+ 
+
+}
+
 @media only screen and (min-width: 600px) {
   .logo {
     width: 200px;
