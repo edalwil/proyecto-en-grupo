@@ -80,8 +80,9 @@ font-weight: 400;
 
 }
 
-@media (min-width: 768px) {
-.Brandon{
-    display: none;
-}
+@media only screen and (min-width: 750px){
+    .fondomobile {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
